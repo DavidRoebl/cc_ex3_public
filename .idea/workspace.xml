@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pom.xml" line="36" mnemonic="7" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb4404a-1bc8-4d74-a147-ea40141532ed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +45,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="76" column="49" lean-forward="false" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="49" />
+            <state relative-caret-position="210">
+              <caret line="78" column="25" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="78" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -119,6 +115,8 @@
     <findStrings>
       <find>entitymana</find>
       <find>persistence</find>
+      <find>org.springframework.boot</find>
+      <find>spring-boot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -832,12 +830,12 @@
       <workItem from="1512983306346" duration="4165000" />
       <workItem from="1515520130915" duration="1525000" />
       <workItem from="1516096108591" duration="451000" />
-      <workItem from="1516199547559" duration="4174000" />
+      <workItem from="1516199547559" duration="4532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45653000" />
+    <option name="totallyTimeSpent" value="46011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -1250,8 +1248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="76" column="49" lean-forward="false" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="49" />
+        <state relative-caret-position="210">
+          <caret line="78" column="25" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="78" selection-end-column="25" />
           <folding />
         </state>
       </provider>
