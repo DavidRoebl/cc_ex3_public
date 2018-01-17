@@ -1,1 +1,0 @@
-web: java -Dserver.port=%PORT% -jar target/swagger-spring-0.0.1-alpha.jar
