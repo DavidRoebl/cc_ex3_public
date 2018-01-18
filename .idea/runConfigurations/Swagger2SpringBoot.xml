@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Swagger2SpringBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="io.swagger.Swagger2SpringBoot" />
+    <option name="DEBUG_MODE" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <module name="swagger-spring" />
+    <envs>
+      <env name="DATABASE_URL" value="postgres://geo:geo@localhost:5432/test_development" />
+    </envs>
+    <method />
+  </configuration>
+</component>

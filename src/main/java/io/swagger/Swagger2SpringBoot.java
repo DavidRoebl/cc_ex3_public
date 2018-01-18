@@ -4,8 +4,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.ExitCodeGenerator;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
@@ -13,13 +11,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 @ComponentScan(basePackages = { "io.swagger", "io.swagger.api" })
-public class Swagger2SpringBoot extends SpringBootServletInitializer implements CommandLineRunner {
-
-
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(Swagger2SpringBoot.class);
-    }
+public class Swagger2SpringBoot implements CommandLineRunner {
 
     @Override
     public void run(String... arg0) throws Exception {
@@ -29,8 +21,7 @@ public class Swagger2SpringBoot extends SpringBootServletInitializer implements 
     }
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(Swagger2SpringBoot.class, args);
-//        new SpringApplication(Swagger2SpringBoot.class).run(args);
+        new SpringApplication(Swagger2SpringBoot.class).run(args);
     }
 
     class ExitException extends RuntimeException implements ExitCodeGenerator {
