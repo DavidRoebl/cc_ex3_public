@@ -28,18 +28,10 @@ public class DatabaseConfig {
 
     @Bean
     public DataSource dataSource(){
-       /* URI dbUri = null;
-        try {
-            dbUri = new URI(System.getenv("DATABASE_URL"));
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-            System.err.println("URI SYNTAX EXCEPTION!!! STOPPING EXECUTION");
-            System.exit(0001);
-        }*/
-
-        String username = "lxrwyleutevvuy";//dbUri.getUserInfo().split(":")[0];
-        String password = "9c9abb6ccd4d293ed7e7cd21f714e0534c5e6af7a6c5d4e7dffab344e1e86ad9";//dbUri.getUserInfo().split(":")[1];
-        String dbUrl = "jdbc:postgresql://ec2-54-217-245-9.eu-west-1.compute.amazonaws.com:5432/daj3qafrragjt1";// + dbUri.getHost() + ":" + dbUri.getPort() + dbUri.getPath();
+        
+        String username = System.getenv("POSTGRESQL_USER");
+        String password = System.getenv("POSTGRESQL_PASSWORD");
+        String dbUrl = System.getenv("POSTGRESQL_DATABASE");
 
 
         LOGGER.error("username: " + username);
